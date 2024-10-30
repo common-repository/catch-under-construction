@@ -1,0 +1,188 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600');
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+}
+
+.construction {
+    background-attachment: inherit;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1060px;
+    padding: 0 25px;
+}
+
+font-face {
+    font-family: "FontAwesome";
+    font-weight: normal;
+    font-style: normal;
+    src: url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+    src: url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),
+        url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
+        url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
+        url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
+        url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+}
+
+.footer__social-links {
+    font-size: 34px;
+}
+
+.hero-content {
+    background-color: rgba(9, 9, 9, 0.58);
+    box-shadow: inset 0 0 41px 2px rgba(44, 44, 44, 0.5);
+    -webkit-box-shadow: inset 0 0 41px 2px rgba(44, 44, 44, 0.5);
+    padding: 15px;
+}
+
+#title {
+    color: #ffffff;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: "Times New Roman";
+    font-style: normal;
+    line-height: 1.5;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+#description {
+    font-size: 18px !important;
+    width: 100% !important;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contact-info {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contact-info li {
+    margin-bottom: 20px;
+}
+
+ul.contact-info {
+    font-family: Arial;
+}
+
+.contact-info li .fa {
+    background: #333;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 auto;
+    width: 45px;
+}
+
+.contact-info li:last-child {
+    margin: 0;
+}
+
+.site-title {
+    margin-bottom: -35px;
+}
+
+.footer__social-links {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer__social-links li {
+    margin-right: 20px;
+}
+
+.footer__social-links li a {
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.footer__social-links li a:hover {
+    color: #ccc;
+}
+
+.footer__social-links li:last-child {
+    margin: 0;
+}
+
+@media screen and (min-width: 41.688em) {
+    ul.contact-info {
+        flex-direction: row;
+    }
+
+    .contact-info li {
+        margin-bottom: 0;
+        margin-right: 40px;
+    }
+
+    .hero-content {
+        padding: 45px;
+    }
+}
+
+.site-title {
+    text-align: center;
+}
+
+#ft_text {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Times Roman;
+    font-style: normal;
+    line-height: 1.1;
+    text-align: center;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+#description {
+    color: #ffffff;
+    font-size: 20px !important;
+    font-family: "Times New Roman";
+    font-style: normal;
+    line-height: 1.5;
+    text-align: center;
+    width: 80%;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.footer__social-links li a {
+    color: #ffffff;
+}
